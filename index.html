@@ -2,7 +2,7 @@
 <html manifest="load.manifest">
 <head>
     <title>POC</title>
-    <script src="check.js"></script>
+    <script type="text/javascript" src="check.js"></script>
 </head>
 
 <body>
@@ -14,10 +14,10 @@
         <div class="row justify-content-center">
             <form>
                 Nombre:<br>
-                <input type="text" name="nombre"><br>
+                <input type="text" id="nameInput" name="nombre"><br>
                 Apellido:<br>
-                <input type="text" name="apellido">
-                <input type="button" value="enviar">
+                <input type="text" id="lastNameInput" name="apellido">
+                <input type="button" value="enviar" onclick="addPerson()">
             </form>
             <br>
         </div>
