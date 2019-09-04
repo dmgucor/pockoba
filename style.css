@@ -1,7 +1,12 @@
 body{
-    margin-top: 30pt;
+    margin-top: 50px;
 }
 
-.row{
+img{
+    display: inline-block;
     
+}
+
+.container{
+    text-align: center;
 }
