@@ -12,10 +12,6 @@ setInterval(function () {
 }, 3000);
 
 const dbName = "kobaDB";
-const transladosData = [
-    { producto: "Cerveza Andina", cantidad: "10", destinatario: "tienda", fecha: "02/02/19", motivo: "La fecha de vencimiento está muy próxima." }
-];
-
 var request = indexedDB.open(dbName, 2);
 var db;
 
@@ -40,17 +36,7 @@ request.onupgradeneeded = function (event) {
     objectStore.createIndex("cantidad", "cantidad", { unique: false });
     objectStore.createIndex("destinatario", "destinatario", { unique: false });
     objectStore.createIndex("fecha", "fecha", { unique: false });
-    objectStore.createIndex("motivo", "motivo", { unique: false });
-
-    // Se usa transaction.oncomplete para asegurarse que la creación del almacén 
-    // haya finalizado antes de añadir los datos en el.
-    objectStore.transaction.oncomplete = function (event) {
-        // Guarda los datos en el almacén recién creado.
-        var transladosObjectStore = db.transaction("translados", "readwrite").objectStore("translados");
-        for (var i in transladosData) {
-            transladosObjectStore.add(transladosData[i]);
-        }
-    }
+    objectStore.createIndex("motivo", "motivo", { unique: false });    
 
 };
 
