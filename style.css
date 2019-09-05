@@ -1,12 +1,29 @@
-body{
-    margin-top: 50px;
+
+#producto{
+    width: 50% !important;
 }
 
-img{
-    display: inline-block;
-    
+#cantidad{
+    width: 20% !important;
 }
 
-.container{
-    text-align: center;
+#fecha{
+    width:50% !important;
 }
+
+.form-group>label, form>label{
+    font-weight: bold;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.store{
+    color: #0088BC;
+}
+
+#motivo{
+    width: 45% !important;
+}
+
