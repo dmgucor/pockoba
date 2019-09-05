@@ -2,10 +2,15 @@ CACHE MANIFEST
 index.html
 img/group.svg
 style.css
+database.js
+bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap.min.css
+jquery-3.4.1.min.js
 
 NETWORK:
 index.html
 img/group.svg
 style.css
 database.js
+bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap.min.css
+jquery-3.4.1.min.js
 
