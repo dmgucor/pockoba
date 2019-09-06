@@ -44,7 +44,7 @@
                     <form>
                         <div class="form-group">
                             <label for="cantidad">Cantidad</label>
-                            <input type="number" id="cantidad" name="cantidad" class="form-control">
+                            <input type="number" id="cantidad" min="1" name="cantidad" class="form-control">
                         </div>
                     </form>
                 </div>
@@ -55,7 +55,7 @@
                         <label>Destinatario</label>
                         <div class="form-check">
                             <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="optradio" value="Tienda">Tienda
+                                <input type="radio" class="form-check-input" name="optradio" value="Tienda" checked="checked">Tienda
                             </label>
                         </div>
                         <div class="form-check">
@@ -81,7 +81,7 @@
                 </div>
             </form>
             <div class="text-center">
-                <button type="button" class="btn btn-outline-primary" onclick="addTranslado()">Enviar</button>
+                <button type="button" class="btn btn-outline-primary" onclick="agregarRegistro()">Enviar</button>
             </div>
         </div>
     </main>
