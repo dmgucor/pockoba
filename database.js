@@ -44,14 +44,14 @@ function getRadioButton() {
     }
 };
 
-function agregarRegistro() {
+function agregarRegistro() {console.log(window.navigator.onLine);
     if (!window.navigator.onLine) {
-        var producto = document.getElementById("producto").value;
-        var cantidad = document.getElementById("cantidad").value;
-        var destinatario = getRadioButton();
+        var producto = document.getElementById("producto").value; console.log(producto);
+        var cantidad = document.getElementById("cantidad").value; console.log(cantidad);
+        var destinatario = getRadioButton(); console.log(destinatario);
 
-        var fecha = document.getElementById("fecha").value;
-        var motivo = document.getElementById("motivo").value;
+        var fecha = document.getElementById("fecha").value; console.log(fecha);
+        var motivo = document.getElementById("motivo").value; console.log(motivo);
 
         var obj = {
             producto: producto, cantidad: cantidad, destinatario: destinatario, fecha: fecha, motivo: motivo

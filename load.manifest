@@ -1,17 +1,21 @@
 CACHE MANIFEST
 index.html
-img/group.svg
-style.css
+css/bootstrap.min.css
+css/mdb.min.css
+css/style.css
 database.js
-bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap.min.css
-jquery-3.4.1.min.js
-img\KOBA-LOGO.jpeg
+js/jquery-3.4.1.min.js
+js/popper.min.js
+js/bootstrap.min.js
+js/mdb.min.js
 
 NETWORK:
 index.html
-img/group.svg
-style.css
+css/bootstrap.min.css
+css/mdb.min.css
+css/style.css
 database.js
-bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap.min.css
-jquery-3.4.1.min.js
-img\KOBA-LOGO.jpeg
+js/jquery-3.4.1.min.js
+js/popper.min.js
+js/bootstrap.min.js
+js/mdb.min.js
