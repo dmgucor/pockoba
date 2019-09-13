@@ -8,7 +8,8 @@ js/jquery-3.4.1.min.js
 js/popper.min.js
 js/bootstrap.min.js
 js/mdb.min.js
-fontawesome-free-5.10.2-web/css/all.css
+fontawesome-free-5.10.2-web
+
 
 NETWORK:
 index.html
@@ -20,4 +21,4 @@ js/jquery-3.4.1.min.js
 js/popper.min.js
 js/bootstrap.min.js
 js/mdb.min.js
-fontawesome-free-5.10.2-web/css/all.css
+fontawesome-free-5.10.2-web
